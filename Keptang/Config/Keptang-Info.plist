@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- snapceipt://shared opens the app on what was just shared into it. The rest of the
+	     Info.plist is generated from the target's build settings. -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.pepperonilover1234.keptang</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>snapceipt</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

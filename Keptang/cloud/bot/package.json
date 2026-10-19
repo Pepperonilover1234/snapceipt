@@ -1,0 +1,20 @@
+{
+  "name": "snapceipt-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Snapceipt's Discord bot: send a receipt photo or \"Pop corn 60\" and it lands in the app.",
+  "type": "module",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node --env-file=.env src/bot.js",
+    "register": "node --env-file=.env src/register.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "discord.js": "^14.27.0"
+  }
+}

@@ -1,0 +1,4 @@
+// Settings shared by every target. Your own Apple team goes in Signing.xcconfig next to this
+// file, which git ignores: copy Signing.example.xcconfig to Signing.xcconfig and put your
+// Team ID in it (Xcode → Settings → Accounts, or developer.apple.com → Membership).
+#include? "Signing.xcconfig"
